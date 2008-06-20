@@ -39,9 +39,6 @@ Requires(post):		mono-tools >= 1.1.9
 Requires(postun):	mono-tools >= 1.1.9
 
 %description doc
-Gecko-sharp is a C# language binding for the gtkembedmoz widget. You
-can use it to embed mozilla into C# programs.
-
 This package contains the API documentation for %name in
 Monodoc format.
 

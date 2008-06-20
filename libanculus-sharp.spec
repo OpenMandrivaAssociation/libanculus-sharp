@@ -13,8 +13,7 @@ Url: http://code.google.com/p/libanculus-sharp/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: monodoc
-BuildRequires: gtk-sharp2-devel
-BuildRequires: glib-sharp2-devel
+BuildRequires: gtk-sharp2
 BuildArch: noarch
 
 %description

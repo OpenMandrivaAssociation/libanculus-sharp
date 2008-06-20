@@ -1,12 +1,13 @@
 %define name libanculus-sharp
 %define version 0.3.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Reusable utility library written in C#
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
+Patch: libanculus-sharp-0.3.1-libdir.patch
 License: MIT
 Group: Development/Other
 Url: http://code.google.com/p/libanculus-sharp/
@@ -44,6 +45,7 @@ Monodoc format.
 
 %prep
 %setup -q
+%patch -p1
 sh autogen.sh
 
 %build

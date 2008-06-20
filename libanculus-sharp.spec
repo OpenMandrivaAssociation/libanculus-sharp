@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: monodoc
 BuildRequires: gtk-sharp2-devel
+BuildRequires: glib-sharp2-devel
 BuildArch: noarch
 
 %description

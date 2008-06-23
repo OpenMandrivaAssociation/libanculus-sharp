@@ -18,7 +18,6 @@ BuildRequires: gtk-sharp2
 BuildArch: noarch
 
 %description
-
 Anculus means servant in Latin, and that is exactly what the library does. It
 serves and helps you to easily and quickly write new applications.
 libanculus-sharp contains all the building blocks that you need to develop a

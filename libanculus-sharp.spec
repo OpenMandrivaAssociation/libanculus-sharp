@@ -1,6 +1,6 @@
 %define name libanculus-sharp
 %define version 0.3.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Reusable utility library written in C#
 Name: %{name}

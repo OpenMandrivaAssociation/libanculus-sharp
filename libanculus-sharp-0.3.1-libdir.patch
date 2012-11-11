@@ -1,0 +1,33 @@
+diff -p -up libanculus-sharp-0.3.1/src/Anculus.Core/anculus-core.pc.in~ libanculus-sharp-0.3.1/src/Anculus.Core/anculus-core.pc.in
+--- libanculus-sharp-0.3.1/src/Anculus.Core/anculus-core.pc.in~	2008-03-30 12:46:29.000000000 +0200
++++ libanculus-sharp-0.3.1/src/Anculus.Core/anculus-core.pc.in	2008-06-20 15:19:33.000000000 +0200
+@@ -1,6 +1,6 @@
+ prefix=@prefix@
+ exec_prefix=${prefix}
+-pkglibdir=@libdir@/@PACKAGE@
++pkglibdir=@libdir@/mono/@PACKAGE@
+ Libraries=  ${pkglibdir}/@ANCULUS_CORE_LIB@
+ 
+ Name: Anculus.Core
+diff -p -up libanculus-sharp-0.3.1/src/Anculus.Core.Extended/anculus-core-extended.pc.in~ libanculus-sharp-0.3.1/src/Anculus.Core.Extended/anculus-core-extended.pc.in
+--- libanculus-sharp-0.3.1/src/Anculus.Core.Extended/anculus-core-extended.pc.in~	2008-03-30 12:46:29.000000000 +0200
++++ libanculus-sharp-0.3.1/src/Anculus.Core.Extended/anculus-core-extended.pc.in	2008-06-20 15:19:57.000000000 +0200
+@@ -1,6 +1,6 @@
+ prefix=@prefix@
+ exec_prefix=${prefix}
+-pkglibdir=@libdir@/@PACKAGE@
++pkglibdir=@libdir@/mono/@PACKAGE@
+ Libraries=  ${pkglibdir}/@ANCULUS_CORE_EXTENDED_LIB@
+ 
+ Name: Anculus.Core.Extended
+diff -p -up libanculus-sharp-0.3.1/src/Anculus.Gui/anculus-gui.pc.in~ libanculus-sharp-0.3.1/src/Anculus.Gui/anculus-gui.pc.in
+--- libanculus-sharp-0.3.1/src/Anculus.Gui/anculus-gui.pc.in~	2008-03-30 12:46:29.000000000 +0200
++++ libanculus-sharp-0.3.1/src/Anculus.Gui/anculus-gui.pc.in	2008-06-20 15:20:11.000000000 +0200
+@@ -1,6 +1,6 @@
+ prefix=@prefix@
+ exec_prefix=${prefix}
+-pkglibdir=@libdir@/@PACKAGE@
++pkglibdir=@libdir@/mono/@PACKAGE@
+ Libraries=  ${pkglibdir}/@ANCULUS_GUI_LIB@
+ 
+ Name: Anculus.Gui

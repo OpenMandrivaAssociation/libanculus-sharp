@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 Patch: libanculus-sharp-0.3.1-libdir.patch
 License: MIT
 Group: Development/Other
-Url: http://code.google.com/p/libanculus-sharp/
+Url: https://code.google.com/p/libanculus-sharp/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: monodoc
